@@ -1,15 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+    <style>
+        p {
+            text-align: justify;
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding-top: 10px;
+        }
+        h2 {
+            text-align: center;
+            padding-bottom: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+        }
+        #kep {
+            position: static;
+            text-align: center;
+        }
+        .gomb {
+            border: none;
+            background-color: black;
+            color: antiquewhite;
+            border-radius: 5%;
+            width: 100px;
+            height: 30px;
+        }
+        #gombok {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+    </style>
     <title>Estelyi Rori</title>
 </head>
-<body>
-    <h1>Estelyi Lorella Írisz</h1>
-    <h2>Bimbódzó hűség</h2>
-    <p>Egyszer volt, hol nem volt, valamikor régen, sűrű erdők közepében, volt egy ház.</p>
+<body  style="background-color: #f5f4e1;">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-1 col-md-2 col-lg-2"></div>
+            <div class="col-12 col-sm-10 col-md-8 col-lg-8" style="background-color: #ffffff;">
+                <div id="kep"><img src="/photo.jpg" alt="Lori"></div>
+                <h1>Estelyi Lorella Írisz</h1>
+                <p>Egyszer volt, hol nem volt, valamikor régen, sűrű erdők közepében, volt egy ház. Ebben a házban lakott az Estelyi család, békében, nyugalomban... már amennyire nyugalmas és békés lehet az élet négy kamaszodó lány mellett.
+                Szóval most, hogy így tisztáztuk, hogy minden nap megy a káosz, és sorbanállás helyett artikulálatlan üvöltés a wc-használati előjogért, be is mutatnám azokat, akikkel van szerencsém ezt az egészet megosztani.</p>
+                <div id="gombok">
+                    <button class="gomb">Anya</button>
+                    <button class="gomb">Apa</button>
+                    <button class="gomb">Villő</button>
+                    <button class="gomb">Jázmin</button>
+                    <button class="gomb">Léna</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-1 col-md-2 col-lg-2"></div>
+        </div>
+    </div>
 </body>
+
 </html>
